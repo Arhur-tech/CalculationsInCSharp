@@ -1,0 +1,21 @@
+using System;
+
+ 
+
+class Program {
+    static void Main(string[] args)
+        {
+        int valor, tempo;
+        double prestacao, taxa;
+        Console.WriteLine("Digite o valor da prestação: ");
+        valor=int.Parse(Console.ReadLine()); 
+        Console.WriteLine("Digite a taxa de juros: ");
+        taxa=int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a quantidade de dias de atraso: ");
+        tempo=int.Parse(Console.ReadLine());
+        prestacao=valor+(valor*(taxa/100)*tempo);
+        Console.WriteLine("valor da prestacao em atraso: "+prestacao);
+        
+        
+    }
+}

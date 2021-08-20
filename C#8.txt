@@ -1,0 +1,25 @@
+using System;
+
+ 
+
+class Program {
+    static void Main(string[] args)
+        {
+        int A, B;
+        Double rest;
+        Console.WriteLine("Digite o valor de A: ");
+        A=int.Parse(Console.ReadLine()); 
+        Console.WriteLine("Digite o valor B: ");
+        B=int.Parse(Console.ReadLine());
+        rest=A+B;
+        Console.WriteLine("soma="+rest);
+        rest=A-B;
+        Console.WriteLine("subtracao="+rest);
+        rest=A*B;
+        Console.WriteLine("multiplicao="+rest);
+        rest=A/B;
+        Console.WriteLine("divisao="+rest);
+        
+        
+    }
+}

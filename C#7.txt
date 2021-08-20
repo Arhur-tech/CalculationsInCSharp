@@ -1,0 +1,20 @@
+using System;
+
+ 
+
+class Program {
+    static void Main(string[] args)
+        {
+        int A, B, C;
+        Console.WriteLine("Digite o valor de A: ");
+        A=int.Parse(Console.ReadLine()); 
+        Console.WriteLine("Digite o valor B: ");
+        B=int.Parse(Console.ReadLine());
+        C=A;
+        A=B;
+        B=C;
+        Console.WriteLine("Valor de A="+A+" valor de B="+B);
+        
+        
+    }
+}

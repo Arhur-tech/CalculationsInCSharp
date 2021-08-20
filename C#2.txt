@@ -1,0 +1,14 @@
+using System;
+
+class Program {
+    static void Main(string[] args) 
+	{
+        int Base, Altura, total;
+		Console.Write("Digite o valor de Base: ");
+		Base=int.Parse(Console.ReadLine());
+		Console.Write("Digite o valor de Altura: ");
+		Altura=int.Parse(Console.ReadLine());
+		total=Base*Altura/2;
+		Console.Write("A área do triângulo é: "+total);
+    }
+}

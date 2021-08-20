@@ -1,0 +1,16 @@
+using System;
+
+ 
+
+class Program {
+    static void Main(string[] args)
+        {
+        int f;
+        double c;
+        Console.WriteLine("Digite a temperatura em fahrenheit:");
+        f=int.Parse(Console.ReadLine()); 
+        c=(f-32)/1.8;
+        Console.WriteLine("A temperatura em celsius é: "+c);
+        
+    }
+}
